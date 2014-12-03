@@ -4,13 +4,15 @@ from __future__ import unicode_literals
 
 AUTHOR = u'alazyer'
 SITENAME = u'alazyer blog'
-SITEURL = ''
+SITEURL = 'http://alazyer.github.io/'
 
 PATH = 'content'
 
-TIMEZONE = 'Europe/Paris'
+TIMEZONE = 'Asia/Shanghai'
 
 DEFAULT_LANG = u'zh'
+
+GITHUB_URL = u'https://github.com/alazyer/alazyer.github.io'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -23,11 +25,11 @@ AUTHOR_FEED_RSS = None
 LINKS = (('Pelican', 'http://getpelican.com/'),
          ('Python.org', 'http://python.org/'),
          ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+         )
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('Github', 'https://github.com/alazyer/'),
+        ('oschina', 'http://my.oschina.net/alazyer/'),)
 
 DEFAULT_PAGINATION = 10
 
