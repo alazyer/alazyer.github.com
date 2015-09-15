@@ -1,1 +1,10 @@
-baseurl: /
+# Setup
+title:            alazyer's blog
+description:      'blog of alazyer, who love python, django, linux.'
+baseurl:          /
+
+author:
+  name:           'Yuliang Zhang'
+  url:            https://github.com/alazyer
+
+paginate:         5
